@@ -161,8 +161,8 @@ function renderGameTable() {
 
     }
 
-    $(".dealer-cards h2").html(`Banker -- ${dealerPoint}點`);
-    $(".your-cards h2").html(`Player -- ${yourPoint}點`);
+    $(".dealer-cards h2").html(`Banker -- ${dealerPoint} point`);
+    $(".your-cards h2").html(`Player -- ${yourPoint} point`);
 
     // 設定按鈕
     $('#action-hit').attr('disabled', !inGame)
